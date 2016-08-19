@@ -1071,27 +1071,27 @@ var toolbarBuiltInButtons = {
 		name: "bold",
 		action: toggleBold,
 		className: "fa fa-bold",
-		title: "Bold",
+		title: "Negrito",
 		default: true
 	},
 	"italic": {
 		name: "italic",
 		action: toggleItalic,
 		className: "fa fa-italic",
-		title: "Italic",
+		title: "Itálico",
 		default: true
 	},
 	"strikethrough": {
 		name: "strikethrough",
 		action: toggleStrikethrough,
 		className: "fa fa-strikethrough",
-		title: "Strikethrough"
+		title: "Riscado"
 	},
 	"heading": {
 		name: "heading",
 		action: toggleHeadingSmaller,
 		className: "fa fa-header",
-		title: "Heading",
+		title: "Cabeçalho",
 		default: true
 	},
 	"heading-smaller": {
@@ -1131,27 +1131,27 @@ var toolbarBuiltInButtons = {
 		name: "code",
 		action: toggleCodeBlock,
 		className: "fa fa-code",
-		title: "Code"
+		title: "Código"
 	},
 	"quote": {
 		name: "quote",
 		action: toggleBlockquote,
 		className: "fa fa-quote-left",
-		title: "Quote",
+		title: "Citação",
 		default: true
 	},
 	"unordered-list": {
 		name: "unordered-list",
 		action: toggleUnorderedList,
 		className: "fa fa-list-ul",
-		title: "Generic List",
+		title: "Lista",
 		default: true
 	},
 	"ordered-list": {
 		name: "ordered-list",
 		action: toggleOrderedList,
 		className: "fa fa-list-ol",
-		title: "Numbered List",
+		title: "Lista ordenada",
 		default: true
 	},
 	"clean-block": {
@@ -1167,27 +1167,27 @@ var toolbarBuiltInButtons = {
 		name: "link",
 		action: drawLink,
 		className: "fa fa-link",
-		title: "Create Link",
+		title: "Inserir Link",
 		default: true
 	},
 	"image": {
 		name: "image",
 		action: drawImage,
 		className: "fa fa-picture-o",
-		title: "Insert Image",
+		title: "Inserir Imagem",
 		default: true
 	},
 	"table": {
 		name: "table",
 		action: drawTable,
 		className: "fa fa-table",
-		title: "Insert Table"
+		title: "Inserir Tabela"
 	},
 	"horizontal-rule": {
 		name: "horizontal-rule",
 		action: drawHorizontalRule,
 		className: "fa fa-minus",
-		title: "Insert Horizontal Line"
+		title: "Inserir Linha Horizontal"
 	},
 	"separator-3": {
 		name: "separator-3"
@@ -1196,21 +1196,21 @@ var toolbarBuiltInButtons = {
 		name: "preview",
 		action: togglePreview,
 		className: "fa fa-eye no-disable",
-		title: "Toggle Preview",
+		title: "Pré-Visualizar",
 		default: true
 	},
 	"side-by-side": {
 		name: "side-by-side",
 		action: toggleSideBySide,
 		className: "fa fa-columns no-disable no-mobile",
-		title: "Toggle Side by Side",
+		title: "Lado a lado",
 		default: true
 	},
 	"fullscreen": {
 		name: "fullscreen",
 		action: toggleFullScreen,
 		className: "fa fa-arrows-alt no-disable no-mobile",
-		title: "Toggle Fullscreen",
+		title: "Tela cheia",
 		default: true
 	},
 	"separator-4": {
@@ -1220,7 +1220,7 @@ var toolbarBuiltInButtons = {
 		name: "guide",
 		action: "https://simplemde.com/markdown-guide",
 		className: "fa fa-question-circle",
-		title: "Markdown Guide",
+		title: "Guia Markdown ",
 		default: true
 	},
 	"separator-5": {
@@ -1230,13 +1230,13 @@ var toolbarBuiltInButtons = {
 		name: "undo",
 		action: undo,
 		className: "fa fa-undo no-disable",
-		title: "Undo"
+		title: "Desfazer"
 	},
 	"redo": {
 		name: "redo",
 		action: redo,
 		className: "fa fa-repeat no-disable",
-		title: "Redo"
+		title: "Refazer"
 	}
 };
 
@@ -1248,8 +1248,8 @@ var insertTexts = {
 };
 
 var promptTexts = {
-	link: "URL for the link:",
-	image: "URL of the image:"
+	link: "URL do link:",
+	image: "URL da imagem:"
 };
 
 var blockStyles = {
